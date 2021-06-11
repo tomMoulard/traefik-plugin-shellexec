@@ -1,11 +1,9 @@
-displayName: Demo Plugin
+displayName: Shell exec
 type: middleware
 
-import: github.com/traefik/plugindemo
+import: github.com/tommoulard/traefik-plugin-shellexec
 
-summary: '[Demo] Add Request Header'
+summary: 'Execute scripts on call'
 
 testData:
-  Headers:
-    X-Demo: test
-    X-URL: '{{URL}}'
+  enabled: true

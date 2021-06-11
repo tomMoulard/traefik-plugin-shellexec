@@ -25,7 +25,7 @@
     locale = "US"
 
   [linters-settings.funlen]
-    lines = 60 # default 60
+    lines = 90 # default 60
     statements = 40 # default 40
 
 [linters]
@@ -36,6 +36,8 @@
     "testpackage",
     "paralleltest",
     "tparallel",
+    "gosec",
+    "wsl",
   ]
 
 [issues]

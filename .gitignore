@@ -1,2 +1,6 @@
 .idea/
 .DS_Store
+.*.swp
+plugins-storage/
+traefik.yml
+traefik-rules.yml
